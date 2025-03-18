@@ -15,6 +15,7 @@ body{
 .post{
     background-color: white;
     width: 600px;
+    border-radius: 3%;
 }
 /**CABECERA DEL POST**/
 .post-header{
