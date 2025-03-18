@@ -1,0 +1,91 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+
+/*FONDO*/
+body{
+    background-color: lightgray;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/***CARTA***/
+.post{
+    background-color: white;
+    width: 600px;
+}
+/**CABECERA DEL POST**/
+.post-header{
+    display: flex;
+    width: 100%;                                                                                                                                               
+}
+
+.post-header-title{
+    flex-grow: 2;
+    margin: 8px;
+}
+
+.post-header-menu{
+    flex-grow: 3;
+    text-align: right;
+    align-content: center;
+    margin-right: 22px;
+}
+
+.fa-brands{
+    font-size: 40px;
+    margin: 8px;
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.post-header p, strong{
+    margin: 0;
+}
+
+/**IMAGEN**/
+
+.post img{
+    width: 100%;
+}
+
+/**ICONOS**/
+
+.post-icons{
+    display: flex;
+    margin: 8px;
+}
+
+.fa-regular{
+    font-size: 30px;
+}
+
+.post-icon-heart{
+    margin-left: 5px;
+}
+
+.post-icon-dialog{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post-icon-send{
+    flex-grow: 2;
+
+}
+
+.post-icon-save{
+    flex-grow: 3;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/**COMENT**/
+
+.post-comment{
+    margin: 10px;
+}
